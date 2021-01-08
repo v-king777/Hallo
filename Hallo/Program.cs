@@ -9,7 +9,7 @@ namespace Hallo
             Console.WriteLine("Введите своё имя:");
             string name = Console.ReadLine();
             Console.WriteLine("Привет, {0}!", name);
-            Console.WriteLine("Нажмите <Enter> для выхода ...");
+            Console.WriteLine("\n Нажмите <Enter> для выхода ...");
             Console.Read();
         }
     }
